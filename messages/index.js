@@ -42,7 +42,7 @@ bot.dialog('/', dialog);
 
 
 function sendGreet (session) {
-      session.send('Hi, my name is Patricia. I am a chat bot here to assist you. How can I help you?')
+      session.send('Hi, my name is Patricia. I am a chat bot here to assist you. How can I help you?') //Should send out
     }
     dialog.matches('None', [
       function (session, args, next) {
